@@ -7,6 +7,11 @@ FRONT_SPRING_CONSTANT = 1.0
 SIDE_SPRING_RANGE = 75
 SIDE_SPRING_CONSTANT = 1.0
 
+"""
+This is an obstacle-avoidance behavior that simulates a spring-type force
+from the sonars. I.e., the closer a sonar senses something, the more it pushes away
+
+"""
 class Avoid (threading.Thread):
 
 	def __init__(self, ranges, speeds):

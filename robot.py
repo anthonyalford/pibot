@@ -5,14 +5,16 @@ import time
 import atexit
 import readchar
 import thread
-from Sonar import SonarArray
+from SonarArray import SonarArray
 from Drive import Drive
 from Avoid import Avoid
 
-TRIG = 21
-ECHO_L = 12
-ECHO_C = 16
+TRIG_R = 21
 ECHO_R = 20
+TRIG_C = 19
+ECHO_C = 16
+TRIG_L = 13
+ECHO_L = 12
 
 
 mh = Adafruit_MotorHAT(addr=0x60)
@@ -29,9 +31,9 @@ def cleanup():
 def main():
 	atexit.register(cleanup)
 
-	sonars = SonarArray(TRIG, ECHO_L, ECHO_C, ECHO_R)
+	sonars = SonarArray(TRIG_L, TRIG_C, TRIG_R, ECHO_L, ECHO_C, ECHO_R)
 	sonars.start()
-
+	
 	drive = Drive(mh.getMotor(1), mh.getMotor(3))
 	drive.start()
 

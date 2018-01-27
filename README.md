@@ -9,3 +9,18 @@ The python code in this project includes
 * Sonar.py: a module for reading distance measurements from the sonar sensors
 * Avoid.py: a module that implements an avoid obstacles behavior
 * robot.py: a simple CLI for driving the robot
+
+
+## 3-D printed parts
+pi/board:
+https://www.thingiverse.com/thing:972768
+
+sonar:
+https://www.thingiverse.com/thing:2306533
+
+camera:
+https://www.thingiverse.com/thing:1637710
+
+
+## Future Work
+https://github.com/udacity/RoboND-Rover-Project
