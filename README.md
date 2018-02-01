@@ -25,6 +25,14 @@ Total: $136
 * [Mounts for sonar](https://www.thingiverse.com/thing:2306533)
 * [Mount for camera](https://www.thingiverse.com/thing:1637710)
 
+## Setup
+I didn't do a good job of writing down all the steps, but you should be able to find resources:
+* [Installing an OS on the Pi](https://www.imore.com/how-get-started-using-raspberry-pi)
+* [Installing camera drivers on the Pi](https://elinux.org/RPi-Cam-Web-Interface)
+* [Installing Python package for the Motor Hat](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/installing-software)
+* [Circuit and other info for sonars](https://www.modmypi.com/blog/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi)
+
+
 
 ## Future Work
 https://github.com/udacity/RoboND-Rover-Project
