@@ -4,6 +4,9 @@ Inspired by https://www.oreilly.com/learning/how-to-build-a-robot-that-sees-with
 
 I built a robot using many of the components listed in that blog post.
 
+![](assets/pibot-left.jpg)
+
+
 The python code in this project includes
 * Drive.py: a module for controlling the motors' speed
 * SonarArray.py: a module for reading distance measurements from the sonar sensors
