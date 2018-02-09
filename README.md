@@ -26,7 +26,7 @@ Total: $136
 
 ## 3-D printed parts
 * [Mounts for sonar](https://www.thingiverse.com/thing:2306533)
-* [Mount for camera](https://www.thingiverse.com/thing:1637710)
+* [Mount for camera](https://www.thingiverse.com/thing:972768) (look for the file called "Accessory_Static_RPi_CameraHolder.stl")
 
 ## Setup
 I didn't do a good job of writing down all the steps, but you should be able to find resources:
